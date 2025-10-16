@@ -2,8 +2,8 @@ body {
     font-family: Georgia, serif;
     margin: 0;
     padding: 0;
-    background-color: #8b0000; /* Dark red background */
-    color: #fff; /* White text for contrast */
+    background-color: #fff;
+    color: #000;
 }
 
 #app {
@@ -13,8 +13,7 @@ body {
 }
 
 header {
-    background-color: #660000; /* Darker red header */
-    border-bottom: 1px solid #cc3333; /* Red border */
+    border-bottom: 1px solid #ccc;
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
@@ -36,7 +35,7 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: #fff; /* White links for contrast */
+    color: #000;
 }
 
 .page {
@@ -44,8 +43,6 @@ nav a {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #b22222; /* A shade of firebrick red for the page content area */
-    color: #fff;
 }
 
 .posts {
@@ -55,24 +52,22 @@ nav a {
 }
 
 .post {
-    border-bottom: 1px solid #cc3333; /* Red border */
+    border-bottom: 1px solid #ddd;
     padding: 10px 0;
     cursor: pointer;
 }
 
-.post:hover {
-    background-color: #a52a2a; /* Brownish-red hover effect */
-}
+    .post:hover {
+        background-color: #f5f5f5;
+    }
 
 .page.hidden {
     display: none;
 }
 
 footer {
-    border-top: 1px solid #cc3333; /* Red border */
+    border-top: 1px solid #ccc;
     padding: 10px;
     text-align: center;
     margin-top: auto;
-    background-color: #660000; /* Darker red footer */
-    color: #fff; /* White footer text */
 }

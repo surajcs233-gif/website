@@ -7,47 +7,46 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div id="app">
-    <header>
-      <span class="logo">Mediumish</span>
-      <nav>
-        <ul>
-          <li><a href="#" id="homeLink">Home</a></li>
-          <li><a href="#" id="aboutLink">About</a></li>
-        </ul>
-      </nav>
-    </header>
+    <div id="app">
+        <header>
+            <span class="logo">Mediumish</span>
+            <nav>
+                <ul>
+                    <li><a href="#" id="homeLink">Home</a></li>
+                    <li><a href="#" id="aboutLink">About</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <div id="homePage" class="page">
-      <main>
-        <div class="posts" id="postList">
-          <!-- Posts will be dynamically generated here -->
+        <div id="homePage" class="page">
+            <main>
+                <div class="posts" id="postList">
+                    <!-- Posts will be dynamically generated here -->
+                </div>
+            </main>
         </div>
-      </main>
-    </div>
 
-    <div id="aboutPage" class="page hidden">
-      <main>
-        <h1>About</h1>
-        <p>This minimalist blog celebrates clean, distraction-free design.</p>
-        <button class="backBtn">Back to home</button>
-      </main>
-    </div>
-
-    <div id="articlePage" class="page hidden">
-      <main>
-        <div id="articleContent">
-          <!-- Article content will be displayed here -->
+        <div id="aboutPage" class="page hidden">
+            <main>
+                <h1>About</h1>
+                <p>This minimalist blog celebrates clean, distraction-free design.</p>
+                <button class="backBtn">Back to home</button>
+            </main>
         </div>
-        <button class="backBtn">Back to home</button>
-      </main>
-    </div>
 
-    <footer>
-      <p>© <span id="year"></span> Mediumish Blog</p>
-    </footer>
-  </div>
-  <script src="script.js"></script>
+        <div id="articlePage" class="page hidden">
+            <main>
+                <div id="articleContent">
+                    <!-- Article content will be displayed here -->
+                </div>
+                <button class="backBtn">Back to home</button>
+            </main>
+        </div>
+
+        <footer>
+            <p>© <span id="year"></span> Mediumish Blog</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
-
