@@ -2,8 +2,8 @@ body {
     font-family: Georgia, serif;
     margin: 0;
     padding: 0;
-    background-color: #1a1a1a; /* Dark background */
-    color: #e0e0e0; /* Light text for contrast */
+    background-color: #8b0000; /* Dark red background */
+    color: #fff; /* White text for contrast */
 }
 
 #app {
@@ -13,8 +13,8 @@ body {
 }
 
 header {
-    background-color: #222; /* Darker header background */
-    border-bottom: 1px solid #555; /* Changed border color */
+    background-color: #660000; /* Darker red header */
+    border-bottom: 1px solid #cc3333; /* Red border */
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
@@ -36,7 +36,7 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: #e0e0e0; /* Light link color */
+    color: #fff; /* White links for contrast */
 }
 
 .page {
@@ -44,6 +44,8 @@ nav a {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
+    background-color: #b22222; /* A shade of firebrick red for the page content area */
+    color: #fff;
 }
 
 .posts {
@@ -53,13 +55,13 @@ nav a {
 }
 
 .post {
-    border-bottom: 1px solid #555; /* Changed border color */
+    border-bottom: 1px solid #cc3333; /* Red border */
     padding: 10px 0;
     cursor: pointer;
 }
 
 .post:hover {
-    background-color: #333; /* Darker hover effect */
+    background-color: #a52a2a; /* Brownish-red hover effect */
 }
 
 .page.hidden {
@@ -67,10 +69,10 @@ nav a {
 }
 
 footer {
-    border-top: 1px solid #555; /* Changed border color */
+    border-top: 1px solid #cc3333; /* Red border */
     padding: 10px;
     text-align: center;
     margin-top: auto;
-    color: #888; /* Lighter color for footer text */
+    background-color: #660000; /* Darker red footer */
+    color: #fff; /* White footer text */
 }
-
